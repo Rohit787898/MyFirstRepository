@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>Add Task Page</title>
+    <style>
+       #div1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            flex-direction: row;
+            height: 10%;
+            width: 100%;
+            background-color: #00204A;
+        }
+        #div2{
+            display: flex;
+            background-color: #F5F5F5;
+            position: absolute;
+            left: 0px;
+            top: 10%;
+            height: 90%;
+            width: 100%;
+        }
+        #div3{
+            background-color: #00204A;
+            padding: 2%;
+            height: 50%;
+            width: 50%;
+            border-radius: 20px;
+            position: absolute;
+            top: 15%;
+            left: 25%;
+            font-weight: bold;
+        }
+        #b1{
+            
+            position: absolute;
+            top: 80%;
+            left: 80%;
+            border-radius: 10px;
+            padding: 5px;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            color: white;
+            font-weight: bold;
+              background-size: 400%;
+            width: 100px;
+
+        }
+           #user{
+            position: absolute;
+            right: 100px;
+            top: 15px;
+        }
+         .heading{
+            color: white;
+        }
+        td{
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+     <div id="div1">
+    
+       <h1 class="heading"> &nbsp; My Dashboard</h1>
+        <h3 id="user" class="heading"><i>USERNAME &nbsp;</i></h3>
+        </div>
+        <div id="div2">
+        <div id="div3">
+     <h2 class="heading">&nbsp;   Project Name    </h2> <hr>
+            <h3 class="heading"> &nbsp; Task Details</h3><br>
+            <table style="border: none; align-content: center; font-weight: bold;">
+            <tr>
+                <td>
+                    &nbsp; Task Name &nbsp;<input type="text" placeholder="Enter Task Name">
+                </td>
+                <td>
+                &nbsp; Start Date &nbsp;<input type="date" placeholder="MM/DD/YYYY">
+                </td>
+                  <td>
+                    &nbsp; End Date &nbsp;<input type="date" placeholder="MM/DD/YYYY">
+                    </td>
+                </tr>            
+            </table>
+            &nbsp; <font class="heading">Discription</font><br>&nbsp;
+                        <textarea style="height: 100px; width: 300px;"></textarea>  
+       <button id="b1"><b>Add Task</b></button>
+       
+        
+       
+            
+            </div>
+        </div>
+    </body>
+</html>

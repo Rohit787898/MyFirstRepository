@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>This is Dashboard</title>
+    <style>
+        #div1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            flex-direction: row;
+            height: 10%;
+            width: 100%;
+            background-color: #00204A;
+        }
+        #div2{
+            position: absolute;
+            left: 0px;
+            top: 10%;
+            height: 90%;
+            width: 20%;
+            background-color: #3C4F65;
+        }
+        #div3{
+            height: 90%;
+            width: 80%;
+            background-color: #F5F5F5;
+            position: absolute;
+            left: 20%;
+            top: 10%;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        #b1{
+            background-color: #00204A;
+            padding: 5px;
+            border-radius: 15px;
+            position: absolute;
+            left: 200px;
+            top: 15px;
+            color: white;
+            font-weight: bold;
+        }
+        #b2{
+            background-color: #00204A;
+            padding: 5px;
+            border-radius: 15px;
+            position: absolute;
+            right: 100px;
+            top: 15px;
+            color: white;
+            font-weight: bold;
+        }
+        #text1{
+    height: 40px;
+    width: 700px;
+    border: 2px solid purple;         
+    margin-top:10px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+        #user{
+            position: absolute;
+            right: 100px;
+            top: 15px;
+        }
+        .heading{
+            color: white;
+        }
+    </style>
+    
+    </head>
+    <body>
+    <div id="div1">
+    
+       <h1 class="heading"> &nbsp; My Dashboard</h1>
+        <h3 id="user" class="heading"><i>USERNAME &nbsp;</i></h3>
+        </div>
+    <div id="div2">
+        <pre><h2 class="heading"> Dashboards </h2></pre>
+         <button id="b1">Add Board</button>
+        <hr>
+        </div>    
+    <div id="div3">
+        <pre><h2 style="color: #00204A; font-weight: bold;">&nbsp;Projects and Tasks</h2></pre>
+        <button id="b2">Add Project</button>
+        <hr>
+        <input type="text" id="text1"     placeholder="   Search">
+        </div>    
+    </body>
+</html>

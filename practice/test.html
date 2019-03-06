@@ -1,0 +1,33 @@
+<html>
+<head>
+    </head>
+<body>
+    <button onclick="addMe()">Click</button>
+    <div id="div1">
+    </div>
+    <script>
+    
+        var textarr =[
+            
+            {
+                name: 'harry'
+            },
+            {
+                place:'london'
+            }
+        ]
+        function addMe(){
+            textarr.forEach(function(value,index){
+                var insert='<p>Hello'+value.name+'</p>';
+                document.getElementById('div1').innerHTML+=insert;
+            });
+        }
+    </script>
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
